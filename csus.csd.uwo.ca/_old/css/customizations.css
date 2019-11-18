@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../imgs/background.png);
+    background-position: 0% 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+	text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
